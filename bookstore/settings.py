@@ -26,7 +26,10 @@ SECRET_KEY = "django-insecure-f*k@=53bc5!shef1-6w+m$-g)kspbaljz%8k4(j7iuc-u2_dyd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'mvm-bookstore-api-2e2ec7d3734b.herokuapp.com']
+ALLOWED_HOSTS = ['localhost',
+                 '127.0.0.1',
+                 'mvm-bookstore-api-2e2ec7d3734b.herokuapp.com',
+                 'MarcosMantovani.pythonanywhere.com']
 
 
 # Application definition
